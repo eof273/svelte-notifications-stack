@@ -1,0 +1,6 @@
+/demo/
+/node_modules/
+/public/
+/scripts/
+.gitignore
+.npmrc

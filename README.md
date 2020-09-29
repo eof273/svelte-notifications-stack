@@ -1,12 +1,12 @@
-#svelte-notifications-stack
+# svelte-notifications-stack
 
 Svelte component for displaying notifications in the application.
 
-##Usage:
+## Usage:
 
 To use notifications-stack, you need to wrap a component that will be used to display notifications. For example, it can be a component that sends data to the server and receives a response, and depending on the response, we can show a notification. Or, you can wrap the entire application and use the notification wherever you need it.
 
-####Default notifications:
+#### Default notifications:
 
 Let's say this is your application - App.svelte:
 
@@ -59,7 +59,7 @@ const handleAddDefaultNotification = (type) => {
 
 ![Image basic notifications](https://i.ibb.co/wc0LYS5/Screenshot-2020-09-30-at-00-02-19.png)
 
-####Custom notifications:
+#### Custom notifications:
 
 Let's take the same application code as an example - App.svelte:
 
@@ -126,7 +126,7 @@ And in our CustomComponent we receive props witch we passed in `componentProps` 
 
 As you can see, we get `id`, `text` witch we passed in `componentProps` callback, and now we can close custom notification with `close` method from the context `on:click={()=>close(id)}`
 
-###Notifications.svelte props
+### Notifications.svelte props
 
 | Property | Values                                                                                                                                                          |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|

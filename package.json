@@ -1,6 +1,6 @@
 {
   "name": "svelte-notifications-stack",
-  "version": "1.0.0",
+  "version": "1.1.3",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -17,7 +17,8 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0"
+    "sirv-cli": "^1.0.0",
+    "svelte-notifications-stack": "^1.1.3"
   },
   "main": "src/index.js",
   "description": "Svelte component for displaying notifications in the application.",

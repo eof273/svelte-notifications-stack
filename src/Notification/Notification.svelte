@@ -1,8 +1,9 @@
 <script>
     import {getContext, onMount} from 'svelte'
     import { fly } from 'svelte/transition';
-    import {NOTIFICATIONS_TYPES, CONTEXT_NAME} from '..'
+    import {constants} from '..'
     import {generateFlyTransition} from '../utils/notificationUtils'
+    const {NOTIFICATIONS_TYPES, CONTEXT_NAME} = constants
     export let message
     export let id = 0;
     export let type = NOTIFICATIONS_TYPES.INFO

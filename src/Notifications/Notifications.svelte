@@ -1,7 +1,8 @@
 <script>
   import {setContext, onMount} from 'svelte'
-  import {CONTEXT_NAME, NOTIFICATIONS_POSITIONS, NOTIFICATIONS_TYPES} from '..'
+  import {constants} from '..'
   import Notification from './../Notification/Notification.svelte'
+  const {NOTIFICATIONS_POSITIONS, NOTIFICATIONS_TYPES, CONTEXT_NAME} = constants
   let notifications = [];
   let last = 0;
   let instance;

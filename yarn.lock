@@ -566,6 +566,53 @@ supports-color@^7.0.0:
   dependencies:
     has-flag "^4.0.0"
 
+svelte-notifications-stack@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/svelte-notifications-stack/-/svelte-notifications-stack-1.0.1.tgz#880ec7628ada27ca65f2cda4053a982a23069867"
+  integrity sha512-1Z5advIo3fOUiSKJ4CRz2bnJuHE7T6pXXBaGunsQsrlI4PukaxpVV+CdrLO1hfMTN9DXg6Fd68Gf1QtKHSIIcA==
+  dependencies:
+    sirv-cli "^1.0.0"
+    svelte-notifications-stack "^1.0.0"
+
+svelte-notifications-stack@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/svelte-notifications-stack/-/svelte-notifications-stack-1.0.2.tgz#d04a6a73f10f665174b642662d26fdd7c04eaacf"
+  integrity sha512-qcuf8EerAYs4aChP5ehdB3J22aD5UEYz9S/UWqu5vnR4C8z9u3P+K0qsQN3MicK/ThMlwsInrzak/MRZ/OEceg==
+  dependencies:
+    sirv-cli "^1.0.0"
+    svelte-notifications-stack "1.0.1"
+
+svelte-notifications-stack@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/svelte-notifications-stack/-/svelte-notifications-stack-1.0.0.tgz#efb81cc8da8303aad6b28543f5561f123af698fe"
+  integrity sha512-m1U8Q3A7qMGsUJ8vb06QfpP0/7tPEOOkjRxqXGV91DjlaEcGiEhNXJG0dX9G7ZZawgtEInAOMxKGavLvvhg4Iw==
+  dependencies:
+    sirv-cli "^1.0.0"
+
+svelte-notifications-stack@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/svelte-notifications-stack/-/svelte-notifications-stack-1.0.3.tgz#33e21a14876c845fe9585fa19620476abe51237c"
+  integrity sha512-1ToOtQZHeoWCVBPaRm5U9cBA6cc2iNGKX3l8ORgRddnZje/Xuj7TnQ2hzPb3086lwdp2SG9wt54K/oLULA864A==
+  dependencies:
+    sirv-cli "^1.0.0"
+    svelte-notifications-stack "1.0.2"
+
+svelte-notifications-stack@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/svelte-notifications-stack/-/svelte-notifications-stack-1.1.0.tgz#1da5d702c37e3ff7447ea5ef7aafa9bd3d055ad3"
+  integrity sha512-3tKgXm0ZUbnuvyBaMOMz1YP1sEN56n+vxnLoWyJ6tybYimBRsni/7fJvGpA3lF3NXrj5qCbPD7DEF+ElirUVSA==
+  dependencies:
+    sirv-cli "^1.0.0"
+    svelte-notifications-stack "^1.0.3"
+
+svelte-notifications-stack@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/svelte-notifications-stack/-/svelte-notifications-stack-1.1.1.tgz#3961a4b2882ba6af11d116b628f263f4ab1045e3"
+  integrity sha512-9h3knUz90WhSDbqgoBUsQF/E1wiinX69H033f+OTfPZ7eMXPLbgNG5wZBmmHwiVmnfbO/Y2JreUW8Lw1N8/2Tg==
+  dependencies:
+    sirv-cli "^1.0.0"
+    svelte-notifications-stack "^1.1.0"
+
 svelte@^3.0.0:
   version "3.28.0"
   resolved "https://nexus.digital.rt.ru/repository/npm-repo/svelte/-/svelte-3.28.0.tgz#e257fab5666701cf230bea583ceb470bdda1344c"

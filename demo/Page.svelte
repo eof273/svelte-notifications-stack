@@ -1,7 +1,9 @@
 <script>
   import {getContext} from "svelte";
-  import {CONTEXT_NAME} from "../src/constants/constants";
+  import {constants} from "svelte-notifications-stack";
   import CustomNotification from "./CustomNotification/CustomNotification.svelte";
+
+  const {CONTEXT_NAME} = constants
 
   const {add, updatePosition, positions, types} = getContext(CONTEXT_NAME);
   let notificationsPositions = [

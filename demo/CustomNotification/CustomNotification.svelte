@@ -1,7 +1,7 @@
 <script>
     import {getContext} from "svelte";
-    import {CONTEXT_NAME} from "../../src";
-
+    import {constants} from "svelte-notifications-stack";
+    const {CONTEXT_NAME} = constants
     export let id
     export let text
     const {close} = getContext(CONTEXT_NAME);

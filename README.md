@@ -12,7 +12,7 @@ Let's say this is your application - App.svelte:
 
 ```sveltehtml
 <script>
-  import Notifications from 'svelte-notifications-stack';
+  import {Notifications} from 'svelte-notifications-stack';
   import Header from './Header'
   import Pages from './Pages'
   import Footer from './Footer'
@@ -30,10 +30,7 @@ And now we want to use basic notifications in our application in the Pages compo
 ```sveltehtml
 <script>
   import {getContext} from 'svelte';
-  import {CONTEXT_NAME} from 'svelte-notifications-stack';
-
-
-  const {add, types} = getContext(CONTEXT_NAME);
+  const {add, types} = getContext('svelte-notifications-stack');
   const handleAddDefaultNotification = (type) => {
     add({message: 'Message', type})
   };
@@ -50,8 +47,7 @@ And now we want to use basic notifications in our application in the Pages compo
 In this example, we take the notification context and use the add method to add the notification:
 
 ```sveltejs
-import {CONTEXT_NAME} from 'svelte-notifications-stack';
-const {add, types} = getContext(CONTEXT_NAME);
+const {add, types} = getContext('svelte-notifications-stack');
 const handleAddDefaultNotification = (type) => {
   add({message: 'Message', type})
 };
@@ -65,7 +61,7 @@ Let's take the same application code as an example - App.svelte:
 
 ```sveltehtml
 <script>
-  import Notifications from 'svelte-notifications-stack';
+  import {Notifications} from 'svelte-notifications-stack';
   import Header from './Header'
   import Pages from './Pages'
   import Footer from './Footer'
@@ -84,10 +80,9 @@ And let's create our custom notification:
 ```sveltehtml
 <script>
   import {getContext} from 'svelte';
-  import {CONTEXT_NAME} from 'svelte-notifications-stack';
   import CustomComponent from './CustomComponent';
 
-  const {add} = getContext(CONTEXT_NAME);
+  const {add} = getContext('svelte-notifications-stack');
 
   const handleAddCustomNotification = () => {
     add({
@@ -111,11 +106,10 @@ And in our CustomComponent we receive props witch we passed in `componentProps` 
 ```sveltehtml
 <script>
   import {getContext} from "svelte";
-  import {CONTEXT_NAME} from "svelte-notifications-stack";
 
   export let id
   export let text
-  const {close} = getContext(CONTEXT_NAME);
+  const {close} = getContext('svelte-notifications-stack');
 </script>
 
 <div>

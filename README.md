@@ -2,6 +2,8 @@
 
 Svelte component for displaying notifications in the application.
 
+`npm install --save svelte-notifications-stack` or `yarn add svelte-notifications-stack`
+
 ## Usage:
 
 To use notifications-stack, you need to wrap a component that will be used to display notifications. For example, it can be a component that sends data to the server and receives a response, and depending on the response, we can show a notification. Or, you can wrap the entire application and use the notification wherever you need it.

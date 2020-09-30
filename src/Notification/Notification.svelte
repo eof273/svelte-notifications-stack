@@ -21,7 +21,7 @@
 
     onMount(()=>{
       if(timeout) {
-        setTimeout(()=>{
+        currentTimeout = setTimeout(()=>{
           handleClose()
         }, timeout)
       }
